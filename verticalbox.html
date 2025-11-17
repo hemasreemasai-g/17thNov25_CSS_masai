@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Box Model</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 320px;
+            margin: auto;
+            margin-top: 40px;
+            padding: 20px;
+            background: #d6c6f4; /* light purple */
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .heading {
+            font-weight: bold;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .box-title {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .box-value {
+            font-size: 26px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="heading">Highest & <br>Average CTC</div>
+
+        <div class="box">
+            <div class="box-title">Expected Increase in<br>Salary Potential</div>
+            <div class="box-value">60%</div>
+        </div>
+
+        <div class="box">
+            <div class="box-title">Average CTC</div>
+            <div class="box-value">₹6.1 LPA</div>
+        </div>
+
+        <div class="box">
+            <div class="box-title">Highest CTC</div>
+            <div class="box-value">₹36 LPA</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
